@@ -3,6 +3,14 @@ from tkinter import messagebox
 from procesador import validar_cadenas, explicar_regex
 from generadorAutomata import construir_automata, mostrar_ventana_automata
 
+'''
+Integrantes:
+- Cristian Alexander Bedón Astudillo
+- Yhonatan Steven Gómez Valencia
+- Jhojan Ricardo Botahce
+'''
+
+
 def crear_interfaz():
     ventana = tk.Tk()
     ventana.geometry("600x400")
